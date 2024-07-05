@@ -1,22 +1,25 @@
 {
-  "name": "@tyrsolutions/quasar-app-extension-qogimage",
-  "version": "0.0.1",
-  "description": "A Quasar App Extension",
-  "author": "Matthew Marino <matthew.asdos@gmail.com>",
-  "license": "MIT",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tyrsolution/quasar-ui-qogimage"
-  },
-  "bugs": "https://github.com/tyrsolution/quasar-ui-qogimage/issues",
-  "homepage": "",
-  "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.6.0",
-    "yarn": ">= 1.6.0"
-  },
-  "dependencies": {
-    "@tyrsolutions/quasar-ui-qogimage": "^0.0.1"
-  }
+	"name": "@tyrsolutions/quasar-app-extension-qogimage",
+	"version": "0.0.1",
+	"description": "A Quasar App Extension",
+	"author": "Matthew Marino <matthew.asdos@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tyrsolution/quasar-ui-qogimage"
+	},
+	"bugs": "https://github.com/tyrsolution/quasar-ui-qogimage/issues",
+	"homepage": "",
+	"engines": {
+		"node": ">= 8.9.0",
+		"npm": ">= 5.6.0",
+		"yarn": ">= 1.6.0"
+	},
+	"dependencies": {
+		"@tyrsolutions/quasar-ui-qogimage": "^0.0.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
