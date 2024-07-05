@@ -157,8 +157,8 @@ The config requires a modified satori configuraiton object. As of right now, the
 ```
 The url field will be used to fetch the font file, create an array buffer of it, and pass it to satori as a data attribute. Multiple font declarations may be used in the fonts array and each one will be converted for satori.
 
-# Donate
-If you appreciate the work that went into this, please consider [donating to Quasar](https://donate.quasar.dev).
+<!-- # Donate
+If you appreciate the work that went into this, please consider [donating to Quasar](https://donate.quasar.dev). -->
 
 # License
 MIT (c) Matthew Marino <matthew.asdos@gmail.com>

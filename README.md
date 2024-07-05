@@ -9,8 +9,8 @@ Compatible with Quasar UI v2 and Vue 3.
 * [/demo](demo) - Quasar app demo
 
 
-# Donate
-If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).
+<!-- # Donate
+If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev). -->
 
 # License
 MIT (c) Matthew Marino <matthew.asdos@gmail.com>
