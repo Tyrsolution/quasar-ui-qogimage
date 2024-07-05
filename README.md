@@ -1,5 +1,5 @@
-<img src="https://img.shields.io/npm/v/quasar-ui-qogimage.svg?label=quasar-ui-qogimage">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-qogimage.svg?label=quasar-app-extension-qogimage">
+<img src="https://img.shields.io/npm/v/@tyrsolutions/quasar-ui-qogimage.svg?label=@tyrsolutions/quasar-ui-qogimage">
+<img src="https://img.shields.io/npm/v/@tyrsolutions/quasar-app-extension-qogimage.svg?label=@tyrsolutions/quasar-app-extension-qogimage">
 
 Compatible with Quasar UI v2 and Vue 3.
 
