@@ -6,11 +6,29 @@
       :todos="todos"
       :meta="meta"
     ></example-component> -->
-    <QOGImage
-      :template="ogTemplate"
-      :templateProps="tempProps"
-      :config="config"
-    />
+    <div style="width: 100%">
+      <div style="width: 50em">
+        <p>Component</p>
+        <QOGImage
+          :template="ogTemplate"
+          :templateProps="tempProps"
+          :config="config"
+        />
+      </div>
+      <br /><br />
+      <div><q-separator color="black" /></div>
+      <br /><br />
+      <div>
+        <p>Directive</p>
+        <span
+          v-q-og-image="{
+            template: ogTemplate,
+            templateProps: tempProps,
+            config: config,
+          }"
+        ></span>
+      </div>
+    </div>
   </q-page>
 </template>
 

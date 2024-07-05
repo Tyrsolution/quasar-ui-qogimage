@@ -14,9 +14,6 @@ importers:
       satori-html:
         specifier: ^0.3.2
         version: 0.3.2
-      vue-dompurify-html:
-        specifier: ^5.1.0
-        version: 5.1.0(vue@3.4.31(typescript@4.9.4))
     devDependencies:
       '@quasar/app-webpack':
         specifier: ^3.13.0
@@ -1862,9 +1859,6 @@ packages:
   domhandler@4.3.1:
     resolution: {integrity: sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==}
     engines: {node: '>= 4'}
-
-  dompurify@3.1.5:
-    resolution: {integrity: sha512-lwG+n5h8QNpxtyrJW/gJWckL+1/DQiYMX8f7t8Z2AZTPw1esVrqjI63i7Zc2Gz0aKzLVMYC1V1PL/ky+aY/NgA==}
 
   domutils@1.7.0:
     resolution: {integrity: sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==}
@@ -4081,11 +4075,6 @@ packages:
 
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
-
-  vue-dompurify-html@5.1.0:
-    resolution: {integrity: sha512-616o2/PBdOLM2bwlRWLdzeEC9NerLkwiudqNgaIJ5vBQWXec+u7Kuzh+45DtQQrids67s4pHnTnJZLVfyPMxbA==}
-    peerDependencies:
-      vue: ^3.0.0
 
   vue-loader@17.4.2:
     resolution: {integrity: sha512-yTKOA4R/VN4jqjw4y5HrynFL8AK0Z3/Jt7eOJXEitsm0GMRHDBjCfCiuTiLP7OESvsZYo2pATCWhDqxC5ZrM6w==}
@@ -6466,8 +6455,6 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  dompurify@3.1.5: {}
-
   domutils@1.7.0:
     dependencies:
       dom-serializer: 0.2.2
@@ -8829,11 +8816,6 @@ snapshots:
   vary@1.1.2: {}
 
   vendors@1.0.4: {}
-
-  vue-dompurify-html@5.1.0(vue@3.4.31(typescript@4.9.4)):
-    dependencies:
-      dompurify: 3.1.5
-      vue: 3.4.31(typescript@4.9.4)
 
   vue-loader@17.4.2(vue@3.4.31(typescript@4.9.4))(webpack@5.92.1(uglify-js@3.18.0)):
     dependencies:

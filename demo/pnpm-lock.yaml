@@ -11,6 +11,12 @@ importers:
       '@quasar/extras':
         specifier: ^1.16.4
         version: 1.16.11
+      '@tyrsolutions/quasar-app-extension-qogimage':
+        specifier: link:..\app-extension
+        version: link:../app-extension
+      '@tyrsolutions/quasar-ui-qogimage':
+        specifier: link:..\ui
+        version: link:../ui
       quasar:
         specifier: ^2.16.0
         version: 2.16.4

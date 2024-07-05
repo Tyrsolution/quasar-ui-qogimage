@@ -7,7 +7,7 @@
 
 function extendConf(conf, api) {
   // register our boot file
-  conf.boot.push('~quasar-app-extension-qogimage/src/boot/register.js')
+  conf.boot.push('~@tyrsolutions/quasar-app-extension-qogimage/src/boot/register.js')
 
   if (api.hasWebpack) {
     // make sure app extension files & ui package gets transpiled

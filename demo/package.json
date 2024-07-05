@@ -15,8 +15,9 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
+    "@tyrsolutions/quasar-app-extension-qogimage": "link:..\\app-extension",
+    "@tyrsolutions/quasar-ui-qogimage": "link:..\\ui",
     "quasar": "^2.16.0",
-    "quasar-app-extension-qogimage": "^0.0.1",
     "vue": "^3.4.18",
     "vue-router": "^4.0.12"
   },
