@@ -2,7 +2,7 @@
 	"name": "@tyrsolutions/quasar-ui-qogimage",
 	"version": "0.0.1",
 	"author": "Matthew Marino <matthew.asdos@gmail.com>",
-	"description": "My awesome component",
+	"description": "Quasar UI component for oq images",
 	"license": "MIT",
 	"module": "dist/index.esm.js",
 	"main": "dist/index.common.js",

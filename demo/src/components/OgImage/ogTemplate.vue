@@ -72,6 +72,9 @@
           class="text-neutral-500 border-b border-neutral-400 ml-2"
           v-html="props.title"
         />
+        <!-- <div>
+          <q-btn label="Google" href="google.com" target="_blank" />
+        </div> -->
       </div>
     </div>
   </div>

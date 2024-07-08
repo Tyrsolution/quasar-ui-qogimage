@@ -134,6 +134,37 @@ Both component and directive expect 3 seperate objects:
 
 ### Template
 The template object, is a vue component import. Simply import the template and add it to the directive or component.
+Satori requires that all divs that have multiple children to have the "flex" css class added to them. This is due to satori using yoga layout engine, a react native flexbox layout engine. If you miss adding "flex" to a div with multiple children, satori will throw an error
+
+```html
+<!-- correct -->
+<div class="flex ...">
+    <div>
+        <span>...</span>
+    </div>
+    <div class="flex ...">
+        <div class="flex ...">
+            <div>...</div>
+            <span>...</span>
+            <div>...</div>
+        </div>
+    </div>
+    <span>...</span>
+</div>
+
+<!-- incorrect -->
+<div>
+    <div>
+        <span>...</span>
+    </div>
+    <div>
+        <div>
+            <span>...</span>
+        </div>
+    </div>
+    <span></span>
+</div>
+```
 
 ### Template props
 The props object expects an object of key / value pairs that will match your template props. These props then get passed to the template when rendered, before the template is converted to svg.
